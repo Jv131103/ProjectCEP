@@ -67,8 +67,8 @@ pip install flask
 ## Estrutura de Arquivos
 A estrutura de arquivos inclui um diretório templates para armazenar os modelos HTML.
 
-project_folder/
-│
+project_folder/<br>
+│<br>
 ├── app.py
 ├── cep.py
 └── templates/
