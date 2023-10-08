@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/css/dados.css">
+    <link rel="icon" href="/static/img/cep.png">
+    <title>Dados Retornados</title>
+</head>
+<body>
+    <h1>Verificação dos dados</h1>
+    <p>Seus dados inseridos: {{cep_digitado}}</p>
+    <h2>Dados retornados:</h2>
+    <table>
+            <th>CEP</th>
+            <th>LOGRADOURO</th>
+            <th>BAIRRO</th>
+            <th>LOCALIDADE</th>
+            <th>Unidade Federativa</th>
+        </tr>
+        <tr>
+            <td>{{dados_cep[0]}}</td>
+            <td>{{dados_cep[1]}}</td>
+            <td>{{dados_cep[2]}}</td>
+            <td>{{dados_cep[3]}}</td>
+            <td>{{dados_cep[4]}}</td>
+        </tr>
+    </table>
+    <nav>
+        <a href="/">Menu Inicial</a>
+    </nav>
+</body>
+</html>
