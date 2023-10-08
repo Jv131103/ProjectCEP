@@ -69,12 +69,12 @@ A estrutura de arquivos inclui um diretório templates para armazenar os modelos
 
 project_folder/<br>
 │<br>
-├── app.py
-├── cep.py
-└── templates/
-    ├── cep.html
-    ├── dados.html
-    └── erro.html
+├── app.py<br>
+├── cep.py<br>
+└── templates/<br>
+****├── cep.html<br>
+****├── dados.html<br>
+****└── erro.html<br>
 
 ### Código Python (app.py)
 ``` Python
